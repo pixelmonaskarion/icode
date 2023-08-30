@@ -1,0 +1,58 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "150d15fa-7d98-46ce-a0c2-c860d1a0e914",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "150d15fa-7d98-46ce-a0c2-c860d1a0e914",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "x-content-type-options": "nosniff",
+            "date": "Wed, 16 Aug 2023 20:30:53 GMT",
+            "content-type": "application/json",
+            "content-length": "515",
+            "connection": "keep-alive"
+        },
+        "RetryAttempts": 0
+    },
+    "sessionState": {
+        "dialogAction": {
+            "type": "Close"
+        },
+        "intent": {
+            "name": "Weather",
+            "slots": {},
+            "state": "ReadyForFulfillment",
+            "confirmationState": "None"
+        },
+        "sessionAttributes": {},
+        "originatingRequestId": "08c929a1-0f74-418e-9327-5d3571f827d7"
+    },
+    "interpretations": [
+        {
+            "nluConfidence": {
+                "score": 0.88
+            },
+            "intent": {
+                "name": "Weather",
+                "slots": {},
+                "state": "ReadyForFulfillment",
+                "confirmationState": "None"
+            }
+        },
+        {
+            "intent": {
+                "name": "FallbackIntent",
+                "slots": {}
+            }
+        },
+        {
+            "nluConfidence": {
+                "score": 0.21
+            },
+            "intent": {
+                "name": "Time",
+                "slots": {}
+            }
+        }
+    ],
+    "sessionId": "idk"
+}
